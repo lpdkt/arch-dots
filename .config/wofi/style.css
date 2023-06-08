@@ -1,0 +1,15 @@
+* {
+    border-radius: 3px;
+}
+
+
+window {
+    font-size: 18px;
+    font-family: "IosevkaNerdFont";
+    opacity: 0.9;
+}
+
+image {
+    margin-left: .25em;
+    margin-right: .25em;
+}
