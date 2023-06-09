@@ -2,7 +2,7 @@ require("leroy.remap")
 print("Leroy")
 
 vim.o.termguicolors = true
-vim.cmd'colorscheme rose-pine'
+vim.cmd'colorscheme tokyonight'
 
 vim.opt.nu = true
 vim.opt.relativenumber = true

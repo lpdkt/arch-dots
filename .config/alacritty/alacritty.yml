@@ -1,15 +1,15 @@
 font:
     normal:
-        family: IosevkaNerdFont
+        family: IosevkaTerm Nerd Font
         style: Medium
     bold:
-        family: IosevkaNerdFont
+        family: IosevkaTerm Nerd Font
         style: Bold
     italic:
-        family: IosevkaNerdFont
+        family: IosevkaTerm Nerd Font
         style: MediumItalic
     bold_italic:
-        family: IosevkaNerdFont
+        family: IosevkaTerm Nerd Font
         style: BoldItalic
     size: 12
 draw_bold_text_with_bright_colorsL: true

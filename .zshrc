@@ -30,6 +30,7 @@ alias ala='nvim ~/.config/alacritty/alacritty.yml'
 alias rustf='cd Documents/rust/'
 alias jfxc='javac --module-path ~/Documents/javafx-sdk-20.0.1/lib --add-modules javafx.controls'
 alias jfx='java --module-path ~/Documents/javafx-sdk-20.0.1/lib --add-modules javafx.controls'
+alias hypr='nvim ~/.config/hypr/
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
