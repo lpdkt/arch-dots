@@ -116,12 +116,7 @@ return require('packer').startup(function(use)
             }
         }
 
-        use {
-            "SmiteshP/nvim-navic",
-            requires = "neovim/nvim-lspconfig"
-        }
-
-	use 'nvim-tree/nvim-web-devicons'
+    
 	use 'nvim-tree/nvim-tree.lua'
 
     use 'folke/tokyonight.nvim'

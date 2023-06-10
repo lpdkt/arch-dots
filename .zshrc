@@ -20,17 +20,19 @@ ZSH_THEME="robbyrussell"
 
 # Aliases
 
-alias nvimdir='cd .config/nvim'
+alias nvimdir='nvim .config/nvim'
 alias q='exit'
 alias mspw='python mspw.py'
-alias gdi2='cd ~/idea-projects/GDI2/'
+alias gdi2='cd ~/idea-projects/GDI2/ && nvim'
 alias alds='cd Documents/Uni/2.Semester/ALDS/ALDS/src'
 alias tmuxconf='nvim ~/.config/tmux/tmux.conf'
 alias ala='nvim ~/.config/alacritty/alacritty.yml'
 alias rustf='cd Documents/rust/'
 alias jfxc='javac --module-path ~/Documents/javafx-sdk-20.0.1/lib --add-modules javafx.controls'
 alias jfx='java --module-path ~/Documents/javafx-sdk-20.0.1/lib --add-modules javafx.controls'
-alias hypr='nvim ~/.config/hypr/
+alias hypr='nvim ~/.config/hypr/'
+alias nv='nvim'
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load

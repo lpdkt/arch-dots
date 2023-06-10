@@ -61,6 +61,7 @@ require("nvim-tree").setup({
   },
 })
 vim.cmd('highlight NvimTreeNormal guibg=none')
+--
 -- NetWr deaktiviert // falls aktivieren nächsten beiden Zeilen löschen
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
