@@ -7,9 +7,15 @@ window {
     font-size: 18px;
     font-family: "IosevkaNerdFont";
     opacity: 0.9;
+    border-radius: 5px;
+
 }
 
 image {
     margin-left: .25em;
     margin-right: .25em;
+}
+
+#input {
+    border-radius: 5px;
 }

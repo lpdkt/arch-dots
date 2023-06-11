@@ -67,7 +67,7 @@ return require('packer').startup(function(use)
 	require("barbecue.ui").toggle(true)
 
     use("folke/zen-mode.nvim")
-    
+   
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
@@ -78,8 +78,6 @@ return require('packer').startup(function(use)
     use 'xiyaowong/transparent.nvim'
     
 
-    -- Using Packer
-    use({ 'rose-pine/neovim', as = 'rose-pine' })
 
     use { "catppuccin/nvim", as = "catppuccin" }
     
