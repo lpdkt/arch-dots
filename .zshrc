@@ -23,7 +23,7 @@ ZSH_THEME="robbyrussell"
 alias nvimdir='nvim .config/nvim'
 alias q='exit'
 alias mspw='python mspw.py'
-alias gdi2='cd ~/idea-projects/GDI2/ && nvim'
+alias gdi2='cd ~/idea-projects/GDI2/src/'
 alias alds='cd Documents/Uni/2.Semester/ALDS/ALDS/src'
 alias tmuxconf='nvim ~/.config/tmux/tmux.conf'
 alias ala='nvim ~/.config/alacritty/alacritty.yml'
@@ -32,6 +32,7 @@ alias jfxc='javac --module-path ~/Documents/javafx-sdk-20.0.1/lib --add-modules 
 alias jfx='java --module-path ~/Documents/javafx-sdk-20.0.1/lib --add-modules javafx.controls'
 alias hypr='nvim ~/.config/hypr/'
 alias nv='nvim'
+alias gitupdate='git add -u && git commit -m "update" && git push'
 
 
 # Set list of themes to pick from when loading at random
