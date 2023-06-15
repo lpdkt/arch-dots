@@ -5,7 +5,6 @@ vim.o.termguicolors = true
 vim.cmd'colorscheme tokyonight'
 
 
-vim.o.clipboard = 'unnamedplus'
 vim.opt.nu = true
 vim.opt.relativenumber = true
 

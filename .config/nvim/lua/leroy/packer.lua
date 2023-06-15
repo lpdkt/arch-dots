@@ -118,4 +118,9 @@ return require('packer').startup(function(use)
 	use 'nvim-tree/nvim-tree.lua'
 
     use 'folke/tokyonight.nvim'
+
+    use {
+        "windwp/nvim-autopairs",
+        config = function() require("nvim-autopairs").setup {} end
+    }
 end)
