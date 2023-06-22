@@ -7,8 +7,8 @@
     "gtk-layer-shell": true,
     "height": 44,
     "modules-left": ["wlr/workspaces"],
-    "modules-center": ["custom/pomodoro","mpris"],
-    "modules-right": ["custom/pacman","network", "battery","clock", "cpu", "memory", "backlight","pulseaudio","pulseaudio#microphone", "tray"],
+    "modules-center": ["custom/pomodoro","mpris", "mpd"],
+    "modules-right": ["network", "battery","clock", "cpu", "memory", "backlight","pulseaudio","pulseaudio#microphone", "tray"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -16,7 +16,7 @@
     "wlr/workspaces": {
         "disable-scroll": true,
         "format": "{icon}",
-        "format-icons": {"1":" ", "2" : " ", "3": "󰙯 ", "4": " ","5": " ", "6": "󰊴 ", "7": " ","8": " ","9":" ", "10": " "},
+        "format-icons": {"1":" ", "2" : " ", "3": "󰙯 ", "4": " ","5": " ", "6": " ", "7": "󰊴 ","8": " ","9":" ", "10": " "},
         "all-outputs": true,
         "on-click": "activate"
     },
@@ -116,8 +116,8 @@
       "interval":1,
       "album-len":0,
       "max-len": 60,
-      "format": "{player_icon} {dynamic}",
-      "format-paused": "{player_icon} {dynamic}",
+      "format": "{player_icon} {artist} - {title}",
+      "format-paused": "{player_icon} {artist} - {title}",
       "player-icons": {
         "default": "▶",
         "mpv": "🎵",
@@ -131,9 +131,9 @@
     },
      
     "mpd": {
-      "format": "{stateIcon} {artist} -  {title}",
+      "format": "{stateIcon} {artist} - {title}",
       "format-disconnected": "Disconnected ",
-      "format-stopped": "{stateIcon} {artist} -  {title}",
+      "format-stopped": "{stateIcon} {artist} - {title}",
       "interval": 2,
       "consume-icons": {
         "on": " " // Icon shows only when "consume" is on
@@ -142,11 +142,11 @@
         "on": " "
       },
       "single-icons": {
-        "on": "1 "
+        "on": " 1 "
       },
       "state-icons": {
-        "paused": "",
-        "playing": ""
+        "paused": " ",
+        "playing": " "
       },
       "tooltip-format": "MPD (connected)",
       "tooltip-format-disconnected": "MPD (disconnected)"

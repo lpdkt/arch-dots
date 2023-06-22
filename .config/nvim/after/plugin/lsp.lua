@@ -9,6 +9,7 @@ lsp.ensure_installed({
 	'tsserver',
 	'pyright',
 	'kotlin_language_server',
+    'clangd',
 })
 
 -- Fix Undefined global 'vim'

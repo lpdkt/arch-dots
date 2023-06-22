@@ -33,7 +33,7 @@ alias jfx='java --module-path ~/Documents/javafx-sdk-20.0.1/lib --add-modules ja
 alias hypr='nvim ~/.config/hypr/'
 alias nv='nvim'
 alias gitupdate='git add -u && git commit -m "update" && git push'
-
+alias mpdstop='killall mpd'
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
