@@ -11,7 +11,7 @@ font:
     bold_italic:
         family: IosevkaTerm Nerd Font
         style: BoldItalic
-    size: 12
+    size: 11
 draw_bold_text_with_bright_colorsL: true
 
 

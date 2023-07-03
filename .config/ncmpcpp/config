@@ -573,7 +573,7 @@ visualizer_spectrum_hz_max = 20000
 #
 #state_flags_color = default:b
 #
-#main_window_color = yellow
+main_window_color = 111
 #
 #color1 = white
 #
@@ -581,7 +581,7 @@ visualizer_spectrum_hz_max = 20000
 #
 #progressbar_color = black:b
 #
-#progressbar_elapsed_color = green:b
+progressbar_elapsed_color = 111
 #
 #statusbar_color = default
 #
